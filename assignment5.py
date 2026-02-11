@@ -4,6 +4,14 @@
 # • Uses arithmetic operators to calculate the area of a rectangle
 # • Prints the result
 
+def area():
+     length = 40
+     width = 30
+     area = length * width
+     print("The area of the rectangle is: ", area)
+
+area()    
+
 
 # Qn 2: Function With Parameters
 # Create a function that:
@@ -62,6 +70,8 @@ else:
 # • Accepts a number n
 # • Uses a for loop
 # • Calculates the sum of numbers from 1 to n
+
+
 
 
 
