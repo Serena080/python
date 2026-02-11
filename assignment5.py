@@ -10,6 +10,31 @@
 # • Accepts two numbers as parameters
 # • Returns their sum, difference, product, and division
 
+numeral1 = int(input("Enter the first number:"))
+numeral2 = int(input("Enter the second number:"))
+
+#Addition
+
+addition = numeral1 + numeral2
+print("The sum of two numbers: ",addition)
+
+#Subtraction
+
+difference = numeral1 - numeral2
+print("The difference between two numbers: ",difference )
+
+#multiplication
+
+product = numeral1 * numeral2
+print("The products of two numbers: ",product)
+
+#Division
+
+divident = numeral1 / numeral2
+print("The divident of two numbers: ",divident)
+
+
+
 
 # Qn 3: Control Statement (if...elif...else)
 # Write a function that:
@@ -19,12 +44,27 @@
 # • Negative
 # • Zero
 
+num1 = int(input("Enter the number:"))
+if num1 == 0:
+     print("This is a zero")
+
+elif num1 < 0:
+     print("This is a negative number")   
+
+else:
+     print("This is a positive number")       
+
+
+
 
 # Qn 4: Loop with Arithmetic
 # Write a function that:
 # • Accepts a number n
 # • Uses a for loop
 # • Calculates the sum of numbers from 1 to n
+
+
+
 
 
 
