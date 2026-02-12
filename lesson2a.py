@@ -10,7 +10,7 @@ cars =["BMW", "benz", "Hiance", "Prado", "Probox", "Mercedes", "Range", "Mclaren
 print(cars)
 print(type(cars))
 
-#Accessing th items of a list
+#Accessing the items of a list
 print(cars[2])
 print("The cars on index four: ",(cars[4]))
 
